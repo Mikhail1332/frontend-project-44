@@ -6,3 +6,10 @@
 <a href="https://codeclimate.com/github/Mikhail1332/frontend_project_1/maintainability"><img src="https://api.codeclimate.com/v1/badges/1741b819818cb5760dfd/maintainability" /></a>
 <a href="https://codeclimate.com/github/Mikhail1332/frontend_project_1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1741b819818cb5760dfd/test_coverage" /></a>
 
+https://asciinema.org/a/ZCqRKCWRQfYwoU9qPZV4oLTBA - brain-games
+https://asciinema.org/a/6gJ44IEjaRDvDEcdb8FhgCZRA - brain-even
+https://asciinema.org/a/P8CSCYWwuQVoe1Oqufkpuvfmt - brain-calc
+https://asciinema.org/a/bglqiz55NixLfKOSZk9RgTtUs - brain-gcd
+https://asciinema.org/a/6qQaCx1C922Vz4eI2SqxahFKm - brain-progression
+https://asciinema.org/a/WgHmqbGIv6h9pqWNjFDL0tBjU - brain-prime
+
