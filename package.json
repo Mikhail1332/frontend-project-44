@@ -1,20 +1,22 @@
 {
   "name": "@hexlet/code",
-  "version": "0.6.1",
+  "version": "1.0.0",
   "type": "module",
-  "description": "Hexlet front-end project #1",
+  "description": "Brain-Games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mikhail1332/frontend-project-44"
+    "url": "git+https://github.com/Mikhail1332/frontend_project_1"
   },
-  "keywords": [
-    "hexlet",
-    "brain-games"
-  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikhail1332/frontend_project_1/issues"
+  },
+  "homepage": "https://github.com/Mikhail1332/frontend_project_1#readme",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -23,18 +25,12 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "author": "Mikhail Penyukov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mikhail1332/frontend_project_1/issues"
-  },
-  "homepage": "https://github.com/Mikhail1332/frontend_project_1#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }

@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
+import executeGame from '../src/games/calc.js';
 
-import calc from '../src/games/calc.js';
-
-calc();
+executeGame();

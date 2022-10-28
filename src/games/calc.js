@@ -1,28 +1,31 @@
-/* eslint-disable import/extensions */
-import { getRandomInt } from '../utils/functions.js';
+import getRandomInt from '../math/getRandomInt.js';
+import runGame from '../index.js';
 
-import game from '../index.js';
-
-const task = 'What is the result of the expression?';
-
-const operators = '+-*';
-
-const calculateExpression = (x, y, operator) => {
+const calculateMathExpression = (firstNumber, secondNumber, operator) => {
   switch (operator) {
-    case '*': return x * y;
-    case '+': return x + y;
-    case '-': return x - y;
-    default: return null;
+    case '*':
+      return firstNumber * secondNumber;
+    case '+':
+      return firstNumber + secondNumber;
+    case '-':
+      return firstNumber - secondNumber;
+    default:
+      return null;
   }
 };
 
-const getData = () => {
-  const num1 = getRandomInt(0, 10);
-  const num2 = getRandomInt(0, 10);
-  const operation = operators.charAt(getRandomInt(0, operators.length - 1));
-  const answer = String(calculateExpression(num1, num2, operation));
-  const question = `${num1} ${operation} ${num2}`;
-  return { question, answer };
+const runRound = () => {
+  const operations = ['*', '+', '-'];
+  const randomNumberOne = getRandomInt(1, 16);
+  const randomNumberTwo = getRandomInt(1, 16);
+  const randomOperator = operations[getRandomInt(0, operations.length)];
+  const exerciseCondition = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
+  const correctAnswer = calculateMathExpression(randomNumberOne, randomNumberTwo, randomOperator);
+  const conditionAndAnswer = [exerciseCondition, String(correctAnswer)];
+  return conditionAndAnswer;
 };
 
-export default () => game(task, getData);
+export default () => {
+  const exerciseText = 'What is the result of the expression?';
+  runGame(exerciseText, runRound);
+};

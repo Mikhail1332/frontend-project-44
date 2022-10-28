@@ -1,19 +1,17 @@
-/* eslint-disable import/extensions */
+import getRandomInt from '../math/getRandomInt.js';
+import runGame from '../index.js';
 
-import { getRandomInt } from '../utils/functions.js';
+const isEven = (number) => number % 2 === 0;
 
-import game from '../index.js';
-
-const maxNumber = 100;
-
-const task = 'Answer "yes" if number even otherwise answer "no".';
-
-const isEven = (num) => num % 2 === 0;
-
-const getData = () => {
-  const question = getRandomInt(0, maxNumber);
-  const answer = isEven(question) ? 'yes' : 'no';
-  return { question, answer };
+const runRound = () => {
+  const randomNumber = getRandomInt(1, 101);
+  const exerciseCondition = randomNumber;
+  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+  const conditionAndAnswer = [exerciseCondition, String(correctAnswer)];
+  return conditionAndAnswer;
 };
 
-export default () => game(task, getData);
+export default () => {
+  const exerciseText = 'Answer "yes" if the number is even, otherwise answer "no"';
+  runGame(exerciseText, runRound);
+};

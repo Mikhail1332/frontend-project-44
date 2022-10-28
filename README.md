@@ -1,5 +1,5 @@
-## [Проект Игры Разума](https://ru.hexlet.io/programs/frontend/projects/44) / 
-### Уровень: 1
+### Проект "Игры разума"
+«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. 
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Mikhail1332/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Mikhail1332/frontend-project-44/actions)

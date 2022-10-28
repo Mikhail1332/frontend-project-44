@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
+import executeGame from '../src/games/gcd.js';
 
-import gcd from '../src/games/gcd.js';
-
-gcd();
+executeGame();

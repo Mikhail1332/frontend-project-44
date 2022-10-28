@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
+import executeGame from '../src/games/prime.js';
 
-import prime from '../src/games/prime.js';
-
-prime();
+executeGame();

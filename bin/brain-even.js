@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
+import executeGame from '../src/games/even.js';
 
-import even from '../src/games/even.js';
-
-even();
+executeGame();

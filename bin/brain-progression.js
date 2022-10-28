@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
+import executeGame from '../src/games/progression.js';
 
-import progression from '../src/games/progression.js';
-
-progression();
+executeGame();

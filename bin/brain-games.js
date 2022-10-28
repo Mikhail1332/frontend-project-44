@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable import/extensions */
+import executeGame from '../src/cli.js';
 
-import greeting from '../src/index.js';
-
-greeting();
+executeGame();
