@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "hexlet frontend project 1",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikhail1332/frontend_project_1.git"
+  },
+  "author": "Mikhail Penyukov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikhail1332/frontend_project_1/issues"
+  },
+  "homepage": "https://github.com/Mikhail1332/frontend_project_1#readme",
+  "dependencies": {
+    "brain-games": "^1.1.5"
+  }
+}
